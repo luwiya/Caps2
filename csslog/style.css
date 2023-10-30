@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+  
+}
+
+form{
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+    min-height: 500px;
+}
+
+.form-control{
+    box-shadow: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 4px 4px 0 0;
+    }
+ h4{
+    font-size: 2rem !important;
+    font-weight: 700;
+ }  
+ .form-label{
+    font-weight: 800 !important;
+ }
+ .logo {
+    width: 160px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 0px;
+    display: block;
+}
+
+
+/* Add mobile-first styles */
+
+
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 250, 205, 0.8);
+    border-radius: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+/* Add media queries for tablet and desktop screens */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    form {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    form {
+        padding: 40px;
+    }
+}
+
+
+.btn-primary{
+   
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: #04c487;
+    
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+
+
+
+ 
